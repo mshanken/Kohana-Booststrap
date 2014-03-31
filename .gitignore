@@ -1,0 +1,6 @@
+modules/*
+vendor/*
+application/cache/*
+application/logs/*
+
+composer.phar
