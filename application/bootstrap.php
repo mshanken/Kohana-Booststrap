@@ -140,11 +140,20 @@ Kohana::modules(array(
 	));
 
 /**
- * Set the routes. Each route must have a minimum of a name, a URI and a set of
- * defaults for the URI.
+ * Auto load rotues from routes folder
  */
-Route::set('default', '(<controller>(/<action>(/<id>)))')
-	->defaults(array(
-		'controller' => 'welcome',
-		'action'     => 'index',
-	));
+$inc = array();
+$objects = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(APPPATH . 'routes'), RecursiveIteratorIterator::CHILD_FIRST);
+foreach($objects as $name => $object) {
+       if (!$object->isDir())
+       {
+           $inc[$name] = $name;
+       }
+}
+
+ksort($inc);
+foreach ($inc as $name)
+{
+// echo "<li> $name\n";
+           include_once $name;
+}
