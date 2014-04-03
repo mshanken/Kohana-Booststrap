@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "452d29959b79015daf6d2e32a9da8c05",
+    "hash": "9e22811271c1d029efaccee20fd699c4",
     "packages": [
         {
             "name": "composer/installers",
@@ -613,6 +613,45 @@
                 "issues": "https://github.com/mshanken/metamodel/issues"
             },
             "time": "2014-04-03 14:53:27"
+        },
+        {
+            "name": "mshanken/metamodeluser",
+            "version": "v1.5.2.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mshanken/metamodeluser.git",
+                "reference": "6c8f5b0ba6059dbc3de39680eda50efec2f3ea4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mshanken/metamodeluser/zipball/6c8f5b0ba6059dbc3de39680eda50efec2f3ea4f",
+                "reference": "6c8f5b0ba6059dbc3de39680eda50efec2f3ea4f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "kohana/core": ">=3.3",
+                "kohana/database": "3.3.*",
+                "kohana/unittest": "3.3.*",
+                "php": ">=5.3.3"
+            },
+            "type": "kohana-module",
+            "license": [
+                "Proprietary"
+            ],
+            "description": "Kohana 3.3 module for securing REST APIs",
+            "homepage": "https://github.com/mshanken/metamodeluser",
+            "keywords": [
+                "kohana",
+                "metamodeluser",
+                "oauth",
+                "security"
+            ],
+            "support": {
+                "source": "https://github.com/mshanken/metamodeluser/tree/v1.5.2.1",
+                "issues": "https://github.com/mshanken/metamodeluser/issues"
+            },
+            "time": "2014-04-03 15:04:54"
         },
         {
             "name": "phpunit/php-code-coverage",

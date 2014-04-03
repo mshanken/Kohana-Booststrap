@@ -19,6 +19,10 @@
         {
             "type": "vcs",
             "url":  "https://github.com/mshanken/metamodel"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/mshanken/metamodeluser"
         }
     ],
 	"require": {
@@ -32,6 +36,7 @@
 		"kohana/unittest"   : "3.3.*",
 		"kohana/userguide"  : "3.3.*",        
 		"mshanken/metamodel"  : "dev-composer-compatability@dev",        
+		"mshanken/metamodeluser"  : "1.*",        
 		"misterglass/kohana-twig"  : "1.*"
 	},
 	"config": {
