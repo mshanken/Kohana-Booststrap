@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8f7deaab686cef6dc35acf2f142edf07",
+    "hash": "b6f24238899144dff305baf43c87cd50",
     "packages": [
         {
             "name": "composer/installers",
@@ -525,16 +525,16 @@
         },
         {
             "name": "misterglass/kohana-twig",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MisterGlass/kohana-twig.git",
-                "reference": "5b76b978e4ae7770a8dd59aa33ed662028acdd96"
+                "reference": "d21a17b616d258454e1f4f4d7f04e21057514803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MisterGlass/kohana-twig/zipball/5b76b978e4ae7770a8dd59aa33ed662028acdd96",
-                "reference": "5b76b978e4ae7770a8dd59aa33ed662028acdd96",
+                "url": "https://api.github.com/repos/MisterGlass/kohana-twig/zipball/d21a17b616d258454e1f4f4d7f04e21057514803",
+                "reference": "d21a17b616d258454e1f4f4d7f04e21057514803",
                 "shasum": ""
             },
             "require": {
@@ -567,9 +567,9 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/MisterGlass/kohana-twig/tree/master"
+                "source": "https://github.com/MisterGlass/kohana-twig/tree/v1.0"
             },
-            "time": "2014-04-02 20:48:49"
+            "time": "2014-04-03 14:30:50"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1052,9 +1052,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "misterglass/kohana-twig": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],

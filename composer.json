@@ -27,7 +27,7 @@
 		"kohana/minion"     : "3.3.*",
 		"kohana/unittest"   : "3.3.*",
 		"kohana/userguide"  : "3.3.*",        
-		"misterglass/kohana-twig"  : "@dev"
+		"misterglass/kohana-twig"  : "1.*"
 	},
 	"config": {
 		"vendor-dir": "vendor"
