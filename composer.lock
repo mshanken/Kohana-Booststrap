@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b6f24238899144dff305baf43c87cd50",
+    "hash": "452d29959b79015daf6d2e32a9da8c05",
     "packages": [
         {
             "name": "composer/installers",
@@ -572,6 +572,49 @@
             "time": "2014-04-03 14:30:50"
         },
         {
+            "name": "mshanken/metamodel",
+            "version": "dev-composer-compatability",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mshanken/metamodel.git",
+                "reference": "b99de9bd1d9dbb6ee9c8b94f1b62d6d308eb1470"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mshanken/metamodel/zipball/b99de9bd1d9dbb6ee9c8b94f1b62d6d308eb1470",
+                "reference": "b99de9bd1d9dbb6ee9c8b94f1b62d6d308eb1470",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "kohana/core": ">=3.3",
+                "kohana/database": "3.3.*",
+                "kohana/unittest": "3.3.*",
+                "php": ">=5.3.3"
+            },
+            "type": "kohana-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-devstable": "1.x"
+                }
+            },
+            "license": [
+                "Proprietary"
+            ],
+            "description": "Kohana 3.3 module for developing REST APIs",
+            "homepage": "https://github.com/mshanken/metamodel",
+            "keywords": [
+                "api",
+                "kohana",
+                "metamodel"
+            ],
+            "support": {
+                "source": "https://github.com/mshanken/metamodel/tree/composer-compatability",
+                "issues": "https://github.com/mshanken/metamodel/issues"
+            },
+            "time": "2014-04-03 14:53:27"
+        },
+        {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.17",
             "source": {
@@ -1052,9 +1095,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "mshanken/metamodel": 20
+    },
     "platform": [
 
     ],

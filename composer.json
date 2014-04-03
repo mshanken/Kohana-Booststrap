@@ -15,6 +15,10 @@
         {
             "type": "vcs",
             "url":  "https://github.com/MisterGlass/kohana-twig"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/mshanken/metamodel"
         }
     ],
 	"require": {
@@ -27,6 +31,7 @@
 		"kohana/minion"     : "3.3.*",
 		"kohana/unittest"   : "3.3.*",
 		"kohana/userguide"  : "3.3.*",        
+		"mshanken/metamodel"  : "dev-composer-compatability@dev",        
 		"misterglass/kohana-twig"  : "1.*"
 	},
 	"config": {
