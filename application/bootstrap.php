@@ -131,13 +131,15 @@ Kohana::modules(array(
 	// 'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	// 'database'   => MODPATH.'database',   // Database access
+	'database'   => MODPATH.'database',   // Database access
 	// 'image'      => MODPATH.'image',      // Image manipulation
-	// 'minion'     => MODPATH.'minion',     // CLI Tasks
+	'minion'     => MODPATH.'minion',     // CLI Tasks
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	// 'twig'       => MODPATH.'kohana-twig',       // Twig templating engine
+	'twig'       => MODPATH.'kohana-twig',       // Twig templating engine
+    'metamodel_user'  => MODPATH.'metamodeluser',   // User Authentication with Identity API Tokens
+    'metamodel' => MODPATH.'metamodel',
 	));
 
 /**
