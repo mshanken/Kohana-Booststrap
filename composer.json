@@ -23,6 +23,10 @@
         {
             "type": "vcs",
             "url":  "https://github.com/mshanken/metamodeluser"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/mshanken/SQL-Versioning"
         }
     ],
 	"require": {
@@ -42,9 +46,10 @@
 		"kohana/minion"     : "3.3.*",
 		"kohana/unittest"   : "3.3.*",
 		"kohana/userguide"  : "3.3.*",        
-		"mshanken/metamodel"  : "dev-composer-compatability@dev",        
+		"mshanken/metamodel"  : "dev-master@dev",        
 		"mshanken/metamodeluser"  : "1.*",        
-		"misterglass/kohana-twig"  : "1.*"
+		"misterglass/kohana-twig"  : "1.*",
+        "mshanken/sql-versioning" : "dev-master@dev"
 	},
 	"config": {
 		"vendor-dir": "vendor"
