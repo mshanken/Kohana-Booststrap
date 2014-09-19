@@ -47,7 +47,7 @@
 		"kohana/unittest"   : "3.3.*",
 		"kohana/userguide"  : "3.3.*",        
 		"mshanken/metamodel"  : "dev-master@dev",        
-		"mshanken/metamodeluser"  : "1.*",        
+		"mshanken/metamodeluser"  : "dev-master@dev",        
 		"misterglass/kohana-twig"  : "1.*",
         "mshanken/sql-versioning" : "dev-master@dev"
 	},
